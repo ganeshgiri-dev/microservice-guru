@@ -30,7 +30,7 @@ public class BeerController {
 
     @DeleteMapping("/{beerId}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
-    void  deleteHandler(@PathVariable ("beerId") UUID beerId){
+    void  deleteBeerById(@PathVariable ("beerId") UUID beerId){
 
     }
 
